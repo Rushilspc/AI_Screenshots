@@ -1,0 +1,20 @@
+appId: com.aiscreenshots.app
+productName: AI Screenshots
+files:
+  - dist/**
+  - package.json
+extraMetadata:
+  main: dist/main/main.js
+directories:
+  output: release
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
