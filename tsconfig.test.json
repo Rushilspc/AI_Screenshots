@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": ".tmp/tests",
+    "rootDir": ".",
+    "types": []
+  },
+  "include": ["tests/**/*.ts", "src/main/ranking.ts"]
+}
